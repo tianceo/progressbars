@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Gradient_RingProgress_Activity">
+
+    <com.boe.cn.progressbars.waveview.ProgressRing
+        android:id="@+id/propress_step"
+        android:layout_width="320dp"
+        android:layout_height="320dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:pr_bg_end_color="#ECECEC"
+        app:pr_bg_mid_color="#ECECEC"
+        app:pr_bg_start_color="#ECECEC"
+        app:pr_progress="60"
+        app:pr_progress_end_color="#FF8D33"
+        app:pr_progress_start_color="#FDD876"
+        app:pr_progress_width="5dp"
+        app:pr_show_anim="true" />
+</androidx.constraintlayout.widget.ConstraintLayout>
