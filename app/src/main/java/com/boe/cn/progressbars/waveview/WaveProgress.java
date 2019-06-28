@@ -20,6 +20,8 @@ import android.view.animation.LinearInterpolator;
 
 import com.boe.cn.progressbars.R;
 
+import java.math.BigDecimal;
+
 
 /**
  * 水波进度条
@@ -363,7 +365,15 @@ public class WaveProgress extends View {
         Log.d(TAG, "setValue, value = " + value + ";start = " + start + "; end = " + end);
         startAnimator(start, end, mDarkWaveAnimTime);
     }
+    /**
+     * 获取当前值
+     */
+    public float  getValue() {
 
+        BigDecimal b   =   new   BigDecimal(mValue*2);
+        float   f1   =   b.setScale(1,   BigDecimal.ROUND_HALF_UP).floatValue();
+      return f1;
+    }
     public void setWaveColor(int darkWaveColor, int lightWaveColor) {
         DarkWaveColor = darkWaveColor;
         LightWaveColor = lightWaveColor;

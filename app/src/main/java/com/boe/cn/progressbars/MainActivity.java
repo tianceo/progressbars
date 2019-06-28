@@ -22,7 +22,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
        Button btn_gradient_horizontalprogress=findViewById(R.id.btn_gradient_horizontalprogress);
         btn_gradient_horizontalprogress.setOnClickListener(this);
        Button btn_Corrugated_ball_progress=findViewById(R.id.btn_Corrugated_ball_progress);
+       Button btn_statics=findViewById(R.id.btn_statics);
         btn_Corrugated_ball_progress.setOnClickListener(this);
+        btn_statics.setOnClickListener(this);
     }
 
     @Override
@@ -37,6 +39,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.btn_gradient_horizontalprogress:
                 startActivity(new Intent(MainActivity.this,Corrugated_BallProgress_Activity.class));
+                break;
+            case R.id.btn_statics:
+                startActivity(new Intent(MainActivity.this,RingStatics_Activity.class));
                 break;
         }
     }

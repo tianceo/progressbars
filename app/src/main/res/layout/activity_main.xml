@@ -44,4 +44,16 @@
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_gradient_ringprogress" />
+
+    <Button
+        android:id="@+id/btn_statics"
+        android:layout_width="285dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:text="环形统计图"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_gradient_horizontalprogress" />
 </androidx.constraintlayout.widget.ConstraintLayout>

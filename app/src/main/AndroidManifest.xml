@@ -14,6 +14,7 @@
         <activity android:name=".Corrugated_BallProgress_Activity"/>
         <activity android:name=".Gradient_horizontalProgress_Activity" />
         <activity android:name=".Gradient_RingProgress_Activity" />
+        <activity android:name=".RingStatics_Activity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

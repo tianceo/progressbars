@@ -24,5 +24,5 @@ public class WaveConstant {
 
     public static final int DEFAULT_ARC_WIDTH = 1;
 
-    public static final int DEFAULT_WAVE_HEIGHT = 15;
+    public static final int DEFAULT_WAVE_HEIGHT =15;
 }

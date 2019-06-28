@@ -21,5 +21,5 @@
         app:pr_progress_end_color="#FF8D33"
         app:pr_progress_start_color="#FDD876"
         app:pr_progress_width="5dp"
-        app:pr_show_anim="true" />
+        app:pr_show_anim="false" />
 </androidx.constraintlayout.widget.ConstraintLayout>
